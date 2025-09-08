@@ -32,9 +32,16 @@
         justify-content: space-around;
     }
      /* nav */
-/*      nav{
+     nav{
         display: none;
-     } */
+     }
+
+     .mobile{
+      display: block;
+      
+      
+      
+     }
      /* header{
         text-align: left;
         display: flex;
@@ -57,5 +64,4 @@
      .emails{
       margin-top: 20px;
      }
-
 }
