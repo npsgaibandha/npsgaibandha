@@ -1,0 +1,19 @@
+@media screen and (max-width : 800px){
+    #headt {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-evenly;
+    }
+    #headt .teacher{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    #teachers {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-evenly;
+    }
+    
+
+}

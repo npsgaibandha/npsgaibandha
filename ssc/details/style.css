@@ -1,0 +1,64 @@
+:root{
+    --black : #1e272e;
+    --purple  : #3c40c6;
+    --purplehalka : #575fcf;
+    --akasi : #0fbcf9;
+    --orange : #ffa801;
+    --graan : #05c46b;
+    --ofwhite : #808e9b;
+    --wt : #fff;
+    --blk : #485460;
+    --body : #4f4f50;
+    --ddd : #ddd
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    
+}
+
+.table{
+    font-family: 'Times New Roman', Times, serif;
+    width: 90%;
+    color: var(--wt);
+    background: var(--ofwhite);
+    font-size: 30px;
+    margin: 50px auto;
+    border: 7px solid #000;
+    border-radius: 10px;
+
+}
+table,td,th{
+    /* padding: 10px auto; */
+    border: 2px solid #000;
+    border-collapse:collapse;
+    
+}
+table{
+    width: 100%;
+    
+}
+th{
+    padding: 10px 0;
+}
+td{
+    text-align: center;
+    
+}
+
+tr td{
+    padding: 20px 0;
+}
+
+table a{
+    color: var(--akasi);
+    transition: .5s;
+}
+table a:hover{
+    color: var(--wt);
+    
+}
+.year{
+    padding: 20px 15px;
+}

@@ -1,0 +1,43 @@
+:root{
+	--back : rgb(0, 119, 255);
+	--backli : #049bff;
+	--wt : #fff;
+	--ddd : #ddd
+}
+
+.routines li{
+	background: var(--backli);
+	
+	
+	border-radius: 10px;
+	text-align: center;
+	margin: 5px;
+}
+.routines{
+	list-style: none;
+	width: 90%;
+	border: 1px solid ;
+	border-radius: 10px;
+	margin:50px auto;
+	
+	background: var(--back);
+	padding: 20px;
+}
+
+
+.links a{
+	font-size: 20px;
+	color: var(--wt);
+	display: block;
+	transition: .4s;
+
+	padding: 30px 25px;
+}
+.links a:hover{
+	background: var(--wt) ;
+	color:var(--backli);
+	
+}
+body{
+	background: var(--ddd);
+}

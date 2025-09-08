@@ -1,0 +1,195 @@
+:root {
+	--black: #1e272e;
+	--purple: #3c40c6;
+	--purplehalka: #575fcf;
+	--akasi: #0fbcf9;
+	--orange: #ffa801;
+	--graan: #05c46b;
+	--ofwhite: #808e9b;
+	--wt: #fff;
+	--blk: #485460;
+	--body: #fff;
+	--ddd: #ddd;
+	--fb : rgb(49, 126, 234);
+	--yt: rgb(235, 0, 55);
+	--what: rgb(18, 164, 27);
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	background: var(--body);
+}
+/* Header section */
+header {
+	background: var(--black);
+	text-align: center;
+	padding: 5px 0;
+}
+header h1 {
+	color: var(--wt);
+	display: inline;
+}
+header img {
+	margin-top: 10px;
+	width: 50px;
+	text-align: left;
+}
+
+/* Nav section */
+
+nav {
+	background: var(--ofwhite);
+	width: 100%;
+	position: sticky;
+	top: 0;
+	left: 0;
+	
+}
+nav ul {
+	list-style: none;
+	text-align: center;
+}
+nav ul li {
+	display: inline-block;
+	position: relative;
+}
+nav ul li a {
+	padding: 10px 15px;
+	text-decoration: none;
+	font-family: "Arial Narrow Bold", sans-serif;
+	color: var(--wt);
+	font-size: 18px;
+	display: block;
+	transition: 0.7s;
+}
+nav ul li a:hover {
+	background: var(--wt);
+	color: var(--ofwhite);
+}
+
+/* Eaxm result menu */
+
+.exam {
+	position: absolute;
+	width: 200px;
+	background: var(--ofwhite);
+	display: none;
+}
+.exam li {
+	display: block;
+	text-align: start;
+}
+
+/* Routine menu */
+.routine {
+	position: absolute;
+	width: 250px;
+	background: var(--ofwhite);
+	display: none;
+}
+.routine li {
+	display: block;
+	text-align: start;
+}
+
+nav ul li:hover ul {
+	display: block;
+}
+
+
+/* class menu */
+
+.class {
+	position: absolute;
+	width: 250px;
+	background: var(--ofwhite);
+	display: none;
+}
+.class li {
+	display: block;
+	text-align: start;
+}
+/* Notice */
+.notice {
+	background: var(--ddd);
+	color: var(--blk);
+	width: 90%;
+
+	margin: 30px auto;
+	padding: 40px;
+	text-align: center;
+	border: 5px solid var(--graan);
+	border-radius: 10px;
+}
+/* footer section */
+footer {
+	background: var(--blk);
+}
+#main_foot {
+	font-family: sans-serif;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	align-items: center;
+	padding-top: 20px;
+}
+.infoex{
+	display: flex;
+	justify-content: space-evenly;
+}
+#main_foot ul {
+	list-style: none;
+}
+#main_foot ul li {
+	padding: 5px;
+}
+#main_foot .Contact a,
+#main_foot .lan a {
+	color: var(--wt);
+	padding: 10px;
+}
+
+#main_foot a:hover {
+	text-decoration: underline;
+}
+
+#main_foot .logo h2 {
+	font-family: "Edu NSW ACT Cursive", cursive;
+	font-size: 80px;
+	text-align: center;
+}
+#main_foot .logo h2 img{
+        width: 200px;
+    }
+#main_foot i {
+	color: var(--ofwhite);
+	font-size: 30px;
+	margin-left: 10px;
+}
+#main_foot .fa-facebook:hover {
+	color: var(--fb);
+}
+#main_foot .fa-youtube:hover {
+	color: var(--yt);
+}
+#main_foot .fa-whatsapp:hover {
+	color: var(--what);
+}
+#main_foot p{
+	color: var(--wt);
+}
+/* Extra */
+a {
+	text-decoration: none;
+}
+
+.slideshow{
+	z-index: -1;
+}

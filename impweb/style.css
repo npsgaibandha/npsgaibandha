@@ -1,0 +1,44 @@
+:root{
+    --black : #1e272e;
+    --purple  : #3c40c6;
+    --purplehalka : #575fcf;
+    --akasi : #0fbcf9;
+    --orange : #ffa801;
+    --graan : #05c46b;
+    --ofwhite : #808e9b;
+    --wt : #fff;
+    --blk : #485460;
+    --body : #4f4f50;
+    --ddd : #ddd
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    
+}
+.imp{
+    width: 90%;
+    margin: 20px auto;
+    background: var(--ddd);
+    height: 500px;
+    border: 5px var(--black) solid;
+    border-radius: 10px;
+}
+
+.imp a{
+    font-family: 'Times New Roman', Times, serif;
+    background: var(--akasi);
+    color: var(--wt);
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    transition: .6s;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.imp a:hover{
+    background: var(--wt);
+    color:var(--purplehalka);
+}

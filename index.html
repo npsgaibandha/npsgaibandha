@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>NPS-Welcome Page</title>
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://npsgaibandhapd.com" />
+		<meta property="og:title" content="Newton Preparatory School" />
+		<meta
+			property="og:description"
+			content="Welcome to unofficial website of NPS"
+		/>
+		<meta property="og:image" content="" />
+		<link rel="stylesheet" href="home/style.css" />
+		<link rel="stylesheet" href="home/response.css" />
+		<link rel="shortcut icon" href="pic/ahzabby.png" type="image/x-icon" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+			integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<header>
+			<div class="head">
+				<h1>Newton Preparatory School</h1>
+			</div>
+		</header>
+		
+		<nav id="navopen" class="main_nav">
+			<ul class="nav_ul">
+				<li><a href="home/index.html">Home</a></li>
+				<li><a href="teachers/index.html">Teachers</a></li>
+				
+				<li><a href="">Calendar</a></li>
+				<li>
+					<a href="">Routine</a>
+					<ul class="routine">
+						<li><a href="class_rout/index.html">Class Routine</a></li>
+						<li><a href="">Exam Routine</a></li>
+						<li><a href="">Special Exam Routine</a></li>
+						<li><a href="">Coching Routine</a></li>
+					</ul>
+				</li>
+
+				<li class="er">
+					<a class="exams" href="">Exam result</a>
+					<ul class="exam">
+						<li><a href="">Weekly</a></li>
+						<li><a href="">Monthly</a></li>
+						<li><a href="">Class test</a></li>
+						<li><a href="">Terminal</a></li>
+						<li><a href="">Yearly</a></li>
+					</ul>
+				</li>
+				<li><a href="ssc/index.html">Recent SSC result</a></li>
+				<li><a href="location/index.html">Location</a></li>
+				<li><a href="impweb/index.html">Important Web</a></li>
+			</ul>
+		</nav>
+		
+		<div class="slideshow">
+			<img src="pic/pi1.jpg" alt="Image 1" />
+			<img src="pic/pi2.jpg" alt="Image 2" />
+			<img src="pic/pi3.jpg" alt="Image 3" />
+		</div>
+
+		<style>
+			.slideshow {
+				width: 100%;
+				height: 300px;
+				overflow: hidden;
+				position: relative;
+				margin: auto;
+				
+				/* border: 3px solid #ddd; */
+			}
+			.slideshow img {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				animation: slide 9s infinite;
+				opacity: 0;
+			}
+			.slideshow img:nth-child(1) {
+				animation-delay: 0s;
+			}
+			.slideshow img:nth-child(2) {
+				animation-delay: 3s;
+			}
+			.slideshow img:nth-child(3) {
+				animation-delay: 6s;
+			}
+
+			@keyframes slide {
+				0% {
+					opacity: 0;
+				}
+				10% {
+					opacity: 1;
+				}
+				30% {
+					opacity: 1;
+				}
+				40% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 0;
+				}
+			}
+
+			@media screen and (min-width : 800px){
+				.slideshow{
+					width: 80%;
+					height: 400px;
+				}
+			}
+		</style>
+
+		<div class="notice">
+			<h2>Notice</h2>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae maiores
+				excepturi cumque inventore ratione ex nulla. Soluta repellat quibusdam
+				laborum perspiciatis laboriosam cum. Sequi cupiditate molestias culpa
+				modi possimus non laboriosam consequatur dignissimos vel libero
+				voluptatem magni quas cum, ratione ipsam quae temporibus laudantium sunt
+				tempore voluptas. Magni voluptate odio non, amet nam omnis quaerat
+				laudantium deserunt, illum molestiae cumque vel. Nostrum, nemo, dolor id
+				nisi, accusantium cum distinctio sapiente cumque doloribus repudiandae
+				maiores rerum ad fuga officia illo at. Sapiente deleniti odit, maxime
+				officia non tenetur animi ab reprehenderit sequi? Exercitationem
+				reiciendis tempora numquam sequi suscipit et sed earum.
+			</p>
+		</div>
+
+		<footer>
+			<div id="main_foot">
+				<div class="logo">
+					<h2><img src="pic/ahzabby.png" alt="npsgaibandhalogo"></h2>
+				</div>
+				<div class="is">
+					<a href="https://www.facebook.com/npsgaibandha" target="_blank"
+						><i class="fa-brands fa-facebook"></i
+					></a>
+					<a href=""><i class="fa-brands fa-youtube"></i></a>
+					<a href=""><i class="fa-brands fa-whatsapp"></i></a>
+					
+				</div>
+				<div class="emails">
+					<p>npsgaibandha2000@gmail.com</p>
+				</div>
+				<div class="infoex">
+					<div class="Contact">
+						<ul>
+							<li><a href="">About</a></li>
+							<li><a href="">Contact us</a></li>
+							<li><a href="">Privay and Policy</a></li>
+							<li><a href="">Join Teacher Team</a></li>
+							<li><a href="">Get admitted</a></li>
+							
+						</ul>
+					</div>
+					<div class="lan">
+						<ul>
+							<li><a href="">English</a></li>
+							<li><a href="">Bangla</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<br />
+			<hr />
+
+			©tanvir ishrak
+		</footer>
+		
+		
+	</body>
+</html>
