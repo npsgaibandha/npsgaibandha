@@ -315,6 +315,22 @@ a {
 	margin-top: 20px;
 
 }
-.face{
+/* .face{
 	display: none;
+} */
+
+.face p{
+	font-size: 20px;
+	margin-top: 50px;
+}
+.face img{
+	width: 100%;
+	border-radius: 10px;
+}
+.face div{
+	width: 95%;
+	margin:20px auto;
+	padding: 30px 50px;
+	border: 5px solid var(--ofwhite);
+	border-radius: 10px;
 }
