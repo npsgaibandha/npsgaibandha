@@ -153,9 +153,9 @@ header img {
 	text-align: start;
 }
 
-.main_nav ul li:hover ul {
+/*.main_nav ul li:hover ul {
 	display: block;
-} 
+} */
 
 /* class menu */
 
@@ -296,4 +296,5 @@ a {
 		height: 400px;
 	}
 }
+
 
