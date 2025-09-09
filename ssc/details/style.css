@@ -1,15 +1,18 @@
-:root{
-    --black : #1e272e;
-    --purple  : #3c40c6;
-    --purplehalka : #575fcf;
-    --akasi : #0fbcf9;
-    --orange : #ffa801;
-    --graan : #05c46b;
-    --ofwhite : #808e9b;
-    --wt : #fff;
-    --blk : #485460;
-    --body : #4f4f50;
-    --ddd : #ddd
+:root {
+	--black:#a21111 ;
+	--purple: #3c40c6;
+	--purplehalka: #575fcf;
+	--akasi: #0fbcf9;
+	--orange: #ffa801;
+	--graan: #05c46b;
+	--ofwhite: #0b88e8;
+	--wt: #fff;
+	--blk: #485460;
+	--body: #f3f3f3;
+	--ddd: #ddd;
+	--fb: rgb(49, 126, 234);
+	--yt: rgb(235, 0, 55);
+	--what: rgb(18, 164, 27);
 }
 *,
 *::after,
@@ -25,13 +28,13 @@
     background: var(--ofwhite);
     font-size: 20px;
     margin: 50px auto;
-    border: 7px solid #000;
+    /* border: 2px solid var(--black); */
     border-radius: 10px;
 
 }
 table,td,th{
     /* padding: 10px auto; */
-    border: 2px solid #000;
+    border: 2px solid var(--wt);
     border-collapse:collapse;
     
 }
@@ -52,8 +55,9 @@ tr td{
 }
 
 table a{
-    color: var(--akasi);
+    color: var(--graan);
     transition: .5s;
+    /* border: 1px solid var(--black); */
 }
 table a:hover{
     color: var(--wt);
