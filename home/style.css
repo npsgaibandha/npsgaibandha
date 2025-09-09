@@ -131,7 +131,7 @@ header img {
 } */
 /* Eaxm result menu */
 
-/* .exam {
+.exam {
 	position: absolute;
 	width: 200px;
 	background: var(--ofwhite);
@@ -140,10 +140,9 @@ header img {
 .exam li {
 	display: block;
 	text-align: start;
-} */
-
+} 
 /* Routine menu */
-/* .routine {
+ .routine {
 	position: absolute;
 	width: 250px;
 	background: var(--ofwhite);
@@ -156,7 +155,7 @@ header img {
 
 .main_nav ul li:hover ul {
 	display: block;
-} */
+} 
 
 /* class menu */
 
@@ -297,3 +296,4 @@ a {
 		height: 400px;
 	}
 }
+
