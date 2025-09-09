@@ -20,7 +20,7 @@
     
 }
 .result{
-    width: 96%;
+    width: 90%;
     height: 500px;
     background: var(--ddd);
     margin: 50px auto;
@@ -61,5 +61,4 @@
 .btn-details a:hover{
     background: var(--wt);
     color: var(--black);
-
 }

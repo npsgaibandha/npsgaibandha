@@ -64,4 +64,8 @@
      .emails{
       margin-top: 20px;
      }
+     .face{
+      display: grid;
+      grid-template-columns: auto;
+     }
 }

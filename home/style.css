@@ -1,14 +1,14 @@
 :root {
-	--black: #0b88e8;
+	--black:#a21111 ;
 	--purple: #3c40c6;
 	--purplehalka: #575fcf;
 	--akasi: #0fbcf9;
 	--orange: #ffa801;
 	--graan: #05c46b;
-	--ofwhite: #a21111;
+	--ofwhite: #0b88e8;
 	--wt: #fff;
 	--blk: #485460;
-	--body: #fff;
+	--body: #f3f3f3;
 	--ddd: #ddd;
 	--fb: rgb(49, 126, 234);
 	--yt: rgb(235, 0, 55);
@@ -81,44 +81,50 @@ header img {
 .mobile{
 	display: none;
 	
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	position: sticky;
+	 bottom: 0;
+	/*left: 0;
+	right: 0; */
 	
-	background: var(--ofwhite);
+	background: var(--wt);
 }
 .mobile ul{
-	
+	width: 100%;
 	display: flex;
 	list-style: none;
 	justify-content: center;
 	align-items: center;
-	justify-content: space-around;
-	padding: 20px;
+	justify-content: space-evenly;
+	/* padding: 20px; */
+	border-top: 2px solid var(--ddd);
 	
 }
 
 .mobile i{
-	color: var(--wt);
+	color: var(--ofwhite);
 	/* display: block; */
-	font-size: 30px;
+	font-size: 20px;
 	transition: .7s;
 	
 }
 .mobile a{
-	padding: 20px;
-	transition: .7s;
-	
+	padding: 10px;
+	transition: .4s;
+	display: block;
 }
+/* .mobile li{
+	padding: 10px;
+	
+	
+} */
 .mobile a:hover{
-	background: var(--wt);
-	color: var(--ofwhite);
+	background: var(--ofwhite);
+	/* color: var(--ofwhite); */
 	
 
 }
 .mobile a:hover i{
-	color: var(--ofwhite);
+	color: var(--wt);
 }
 
 /* .mobile ul li{
@@ -141,8 +147,9 @@ header img {
 	display: block;
 	text-align: start;
 } 
+
 /* Routine menu */
- .routine {
+.routine {
 	position: absolute;
 	width: 250px;
 	background: var(--ofwhite);
@@ -153,9 +160,9 @@ header img {
 	text-align: start;
 }
 
-/*.main_nav ul li:hover ul {
+/* .main_nav ul li:hover ul {
 	display: block;
-} */
+}  */
 
 /* class menu */
 
@@ -296,5 +303,18 @@ a {
 		height: 400px;
 	}
 }
+.letter p{
+	text-align:center;
+}
 
+.recent{
+	background: var(--black);
+	color: var(--wt);
+	padding: 20px;
+	text-align: center;
+	margin-top: 20px;
 
+}
+.face{
+	display: none;
+}
