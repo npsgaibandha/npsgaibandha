@@ -5,7 +5,7 @@
     --akasi : #0fbcf9;
     --orange : #ffa801;
     --graan : #05c46b;
-    --ofwhite : #808e9b;
+    --ofwhite: #0b88e8;
     --wt : #fff;
     --blk : #485460;
     --body : #4f4f50;
@@ -20,8 +20,8 @@
     
 }
 .result{
-    width: 90%;
-    height: 500px;
+    width: 95%;
+    min-height: 500px;
     background: var(--ddd);
     margin: 50px auto;
     border: 6px solid var(--black);
@@ -29,16 +29,19 @@
     display: grid;
     grid-template-rows: auto;
     align-items: center;
-    justify-content: center;
+    align-content: space-evenly;
+    text-align: center;
+    /* justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
+    align-content: space-evenly; */
 
-}
-.text{
+} 
+/* .text{
     border: 2px solid var(--wt);
     padding: 30px 50px;
     border-radius: 10px;
-}
+} */
 /* .btn-details{
     background: var(--black);
     color: var(--wt);
@@ -47,18 +50,31 @@
     
     
 } */
-.btn-details a{
+ button a{
     color: var(--wt);
     font-size: 20px;
     transition: .5s;
     display: block;
     border-radius: 10px;
-    background: var(--black);
-    color: var(--wt);
+    background: var(--ofwhite);
+    
     padding: 15px 20px ;
     text-align: center;
+    
 }
-.btn-details a:hover{
+button a:hover{
     background: var(--wt);
     color: var(--black);
 }
+
+.headd{
+    margin-top: 20px;
+    text-align: center;
+}
+button{
+    border: 0;
+    border-radius: 10px;
+    width: 90%;
+    margin:15px auto;
+    
+} 

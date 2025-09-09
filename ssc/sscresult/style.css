@@ -1,0 +1,39 @@
+:root {
+	--black: #1e272e;
+	--purple: #3c40c6;
+	--purplehalka: #575fcf;
+	--akasi: #0fbcf9;
+	--orange: #ffa801;
+	--graan: #05c46b;
+	--ofwhite: #808e9b;
+	--wt: #fff;
+	--blk: #485460;
+	--body: #4f4f50;
+	--ddd: #ddd;
+}
+
+.text {
+	padding: 40px;
+	margin: 20px auto;
+	border: 1px solid var(--wt);
+	border-radius: 10px;
+	font-size: 25px;
+}
+.btn-details {
+	margin: auto;
+}
+.btn-details button {
+	width: 100%;
+}
+.btn-details button a {
+	font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+	.btn-details button a {
+		font-size: 15px;
+	}
+	.text {
+		font-size: 20px;
+	}
+}
