@@ -1,5 +1,6 @@
 :root {
 	--black:#a21111 ;
+	
 	--purple: #3c40c6;
 	--purplehalka: #575fcf;
 	--akasi: #0fbcf9;
@@ -14,7 +15,16 @@
 	--yt: rgb(235, 0, 55);
 	--what: rgb(18, 164, 27);
 }
+::selection {
+  background: var(--black); 
+  color: var(--wt);        
+}
+#main_foot .emails p::selection{
+	background: var(--ofwhite);
+	color: var(--wt);
 
+
+}
 *,
 *::after,
 *::before {
