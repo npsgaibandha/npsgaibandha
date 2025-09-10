@@ -1,68 +1,67 @@
-:root{
-    --black:#a21111 ;
-    --purple  : #3c40c6;
-    --purplehalka : #575fcf;
-    --akasi : #0fbcf9;
-    --orange : #ffa801;
-    --graan : #05c46b;
-    --ofwhite: #0b88e8;
-    --wt : #fff;
-    --blk : #485460;
-    --body : #4f4f50;
-    --teacher : #ddd;
-    --ht : #a09e9e;
-    --ddd : #ddd
+:root {
+	--black: #a21111;
+	--purple: #3c40c6;
+	--purplehalka: #575fcf;
+	--akasi: #0fbcf9;
+	--orange: #ffa801;
+	--graan: #05c46b;
+	--ofwhite: #0b88e8;
+	--wt: #fff;
+	--blk: #485460;
+	--body: #4f4f50;
+	--teacher: #ddd;
+	--ht: #a09e9e;
+	--ddd: #ddd;
 }
-#headt{
-    display: flex;
-    margin: 20px;
-    justify-content: space-evenly;
-    
+#headt {
+	display: flex;
+	margin: 20px;
+	justify-content: space-evenly;
 }
-#headt .teacher{
-    background: var(--ddd);
-    padding: 35px;
-    border-radius: 10px;
-    width: 40%;
-    justify-content: center;
-    font-size: 20px;
-    border: 3px solid var(--black);
-}
-
-#teachers{
-    
-    margin: 30px;
-    
-    
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    justify-content: space-evenly;
-}
-#teachers .teacher{
-    
-    background: var(--teacher);
-    padding: 35px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
-    border: 3px solid var(--ofwhite);
-}
-#teachers .teacher img{
-    margin: auto;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-#teachers .teacher p{
-    font-size: 20px;
+#headt .teacher {
+	background: var(--ddd);
+	padding: 35px;
+	border-radius: 10px;
+	width: 40%;
+	justify-content: center;
+	font-size: 20px;
+	border: 3px solid var(--black);
 }
 
-.teacher p{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+#teachers {
+	margin: 30px;
+
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	justify-content: space-evenly;
+}
+#teachers .teacher {
+	background: var(--teacher);
+	padding: 35px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	display: grid;
+	grid-template-columns: auto;
+	justify-content: center;
+	border: 3px solid var(--ofwhite);
+}
+#teachers .teacher img {
+	margin: auto;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+#teachers .teacher p {
+	font-size: 20px;
 }
 
-.infor h2{
-    text-align: center;
-    margin: 20px auto;
+.teacher p {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.infor h2 {
+	text-align: center;
+	margin: 20px auto;
+	padding: 20px 40px;
+	border: 2px solid var(--ofwhite);
+	margin-bottom: 50px;
 }

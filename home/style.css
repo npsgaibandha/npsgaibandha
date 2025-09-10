@@ -111,19 +111,25 @@ header img {
 	padding: 10px;
 	transition: .4s;
 	display: block;
+	text-align: center;
+	color: var(--ofwhite);
 }
 /* .mobile li{
 	padding: 10px;
 	
 	
 } */
+.mobile span{
+	transition: .4s;
+}
 .mobile a:hover{
 	background: var(--ofwhite);
 	/* color: var(--ofwhite); */
 	
 
 }
-.mobile a:hover i{
+.mobile a:hover i,
+.mobile a:hover span{
 	color: var(--wt);
 }
 
@@ -331,9 +337,10 @@ a {
 	width: 95%;
 	margin:20px auto;
 	padding: 30px 50px;
-	border: 5px solid var(--ofwhite);
+	border: 3px solid var(--ofwhite);
 	border-radius: 10px;
 }
 .face .itel{
 	font-size: 15px;
 }
+
