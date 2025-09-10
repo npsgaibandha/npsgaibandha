@@ -97,6 +97,7 @@ header img {
 	right: 0;
 	
 	background: var(--wt);
+	
 }
 .mobile ul{
 	width: 100%;
@@ -131,6 +132,7 @@ header img {
 } */
 .mobile span{
 	transition: .4s;
+	font-size: 15px;
 }
 .mobile a:hover{
 	background: var(--ofwhite);
